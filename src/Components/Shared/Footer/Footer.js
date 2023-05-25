@@ -1,14 +1,18 @@
 import { IoSend } from "react-icons/io5";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
-// import { SiLinkedin } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
 
 export function Footer() {
   return (
-    <div className="flex flex-col text-body text-c3 shadow-slate-800 drop-shadow-md  bg-black bg-opacity-40">
-      <div className="flex flex-col md:m-20 m-5 my-16 mb-24">
-        <div className="text-2xl text-c1 font-semibold">Get In Touch</div>
+    <div
+      id="footer"
+      className="flex flex-col text-body text-c3 shadow-slate-800 drop-shadow-md  bg-black bg-opacity-40"
+    >
+      <div className="flex flex-col md:m-16 m-5 my-16 mb-24">
+        <div className="text-2xl md:text-4xl text-c1 font-semibold">
+          Get In Touch
+        </div>
         <div className="mt-3 text-xl">
           Excited to work together on something? I am always open to
           opportunities to learn something new everyday. Let’s connect!
